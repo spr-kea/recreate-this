@@ -14,4 +14,13 @@ body {
    width: 100%;
 }
 
-
+/* header */
+.icon{
+    max-width: 10%;
+} 
+#logo{
+    font: var(--main-font);
+    font-weight: 700;
+    text-decoration: none;
+    color: aliceblue;
+}
