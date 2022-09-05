@@ -11,4 +11,13 @@ body {
    background-color: var(--main-background-color);
 }
 
-
+/* header */
+.icon{
+    max-width: 10%;
+} 
+#logo{
+    font: var(--main-font);
+    font-weight: 700;
+    text-decoration: none;
+    color: aliceblue;
+}
