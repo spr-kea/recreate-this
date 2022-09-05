@@ -9,6 +9,9 @@
 body { 
    font: var(--main-font);
    background-color: var(--main-background-color);
+   display: flex;
+   flex-direction: column;
+   width: 100%;
 }
 
 
