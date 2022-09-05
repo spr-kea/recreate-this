@@ -2,25 +2,83 @@
 
 :root {
     --main-font: font-family: 'Arial Rounded MT Bold', sans-serif;
-    --main-background-color:#D95550;                                  
+    --main-background-color: #D95550;
 }
 
 
-body { 
-   font: var(--main-font);
-   background-color: var(--main-background-color);
-   display: flex;
-   flex-direction: column;
-   width: 100%;
+body {
+    font: var(--main-font);
+    background-color: var(--main-background-color);
+    display: flex;
+    flex-direction: column;
+    max-width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font: var(--main-font);
+    color: aliceblue;
+
 }
 
 /* header */
-.icon{
-    max-width: 10%;
-} 
-#logo{
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    max-width: 15px;
+}
+
+.lefticon {
+    max-width: 1.5rem;
+}
+
+#logo {
     font: var(--main-font);
     font-weight: 700;
     text-decoration: none;
     color: aliceblue;
+}
+
+
+#leftside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+#rightside {
+    display: flex;
+
+    width: 50%;
+    gap: 30px;
+}
+
+.buttonlook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #DD6662;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.9;
+
 }
