@@ -1,0 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
+
+:root {
+    --main-font: font-family: 'Arial Rounded MT Bold', sans-serif;
+    --main-background-color:#D95550;                                  
+}
+
+
+body { 
+   font: var(--main-font);
+   background-color: var(--main-background-color);
+}
+
+
