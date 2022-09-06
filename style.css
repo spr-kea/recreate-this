@@ -11,8 +11,7 @@ body {
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
-    width: 50vw;
-
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,7 +27,10 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
+    padding-bottom: 1rem;
     justify-content: space-between;
+    border-bottom: solid 0.01rem black;
+    width: 110%;
 }
 
 .icon {
@@ -90,7 +92,7 @@ justify-content: flex-end;
 
 }
 
-@media only screen and (max-width: 1500px)  {
+@media only screen and (max-width: 1200px)  {
 .hidden{
 display: none;
 }
