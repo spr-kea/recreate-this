@@ -96,13 +96,3 @@ justify-content: flex-end;
 .hidden{
 display: none;
 }
-
-/* @media only screen and (max-width: 1500px) {
-  header{
-    display: flex;
-    width: max-content;
-    justify-content: space-between;
-
-  }
- 
-} */
