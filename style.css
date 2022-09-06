@@ -105,15 +105,59 @@ justify-content: flex-end;
 
 
 /* timer */
+.detail{
+    text-decoration: none;
+
+    background-color: #EBEBEB;
+padding-bottom: 7px;
+
+
+border-radius: 5px;
+
+}
 #timerbox{
    display: flex;
-   justify-content: space-between;
-   max-width: 600px;
+   flex-direction: column;
+   max-width: 500px;
    margin: auto;
-   margin-top: 5rem;
-
-  
+   margin-top: 3rem;
+   row-gap: 1.5rem;
+background-color: #DD6662;
+border-radius: 10px;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+padding-left: 2rem;
+padding-right: 2rem;
+  align-items: center;
 }
+
+#options{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+}
+#timer{
+    font: var(--main-font);
+    font-size: 8.5rem;
+}
+#startbutton{
+    max-width: 200px;
+    background-color: white;
+
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 4rem;
+padding-right: 4rem;
+
+border-radius: 5px;
+
+    font: var(--main-font);
+    color: #DD6662;
+    font-size: 2rem;
+}
+
+
 .timerbuttons{
     padding-left: 1rem;
     padding-right: 1rem;
