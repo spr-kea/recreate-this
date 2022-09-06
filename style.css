@@ -1,7 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
 
 :root {
-    --main-font: font-family: 'Arial Rounded MT Bold', sans-serif;
+    --main-font:
+     font-family: 'Arial Rounded MT Bold', sans-serif;
+     font-weight: 700;
     --main-background-color: #D95550;
 }
 
@@ -9,11 +11,7 @@
 body {
     font: var(--main-font);
     background-color: var(--main-background-color);
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+ 
     row-gap: 1rem;
 }
 
@@ -128,4 +126,9 @@ button{
 .hidden{
 display: none;
 }
+}
 
+#container{
+    margin: auto;
+    max-width: 900px;
+}
