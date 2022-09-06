@@ -9,7 +9,7 @@
 
 #container{
     margin: auto;
-    max-width: 900px;
+    max-width: 700px;
     height: 100vh;
 }
 
@@ -27,7 +27,7 @@ body {
 
 p {
     font: var(--main-font);
-    color: aliceblue;
+    color: white;
 
 }
 
@@ -56,7 +56,7 @@ header {
     font: var(--main-font);
     font-weight: 700;
     text-decoration: none;
-    color: aliceblue;
+    color: white;
 }
 
 
@@ -135,23 +135,146 @@ button{
 
 span{
   
-    color: aliceblue;
+    color: white;
     font: var(--main-font);
     font-weight: 700;  
 }
 
 /* white background area */
 #whitebackground{
-    height: 80vh;
-    background-color: aliceblue;
+
+    background-color: white;
+   
+}
+#secondcontainer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   display: flex;
+   flex-direction: column;
 }
 
-/* footer */
-footer{
-    height: 20vh;
-    background-color: aliceblue;
-    border-top: solid grey 1px;
+.blacktext{
+    color: hsl(357, 12%, 42%);
+    line-height: 1.6em;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    line-height: 2.5rem;
 }
+.bold{
+    color: hsl(348, 4%, 28%);
+    line-height: 1.6em;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.lineheight{
+    line-height: 3.5rem;
+}
+.nostyle{
+    text-decoration: none;
+    color: #DD6662;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #D95550;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.5em;
+  }
+
+h2{
+    color: hsl(357, 50%, 22%);
+   font-size: 3rem;
+   font-weight: 600;
+   font-family: var(--main-font);
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+}
+h3{
+    color: hsl(357, 50%, 22%);
+    font: var(--main-font);
+    font-size: 1.7rem;
+
+    
+
+}
+
+h3::first-letter{
+    padding-bottom:0.5rem ;
+    border-bottom: solid 4px hsl(2, 84%, 64%, 0.6);
+    
+}
+
+
+
+/* footer */
+.smallfont{
+    color: hsl(357, 12%, 42%);
+    line-height: 1.6em;
+    font-size: 1rem;
+    font-weight: 600;
+  
+}
+.circle{
+    background-color: grey;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+.blacktext2{
+    color: hsl(357, 12%, 42%);
+    line-height: 1.6em;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer{
+    row-gap: 1rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+    background-color: white;
+    border-top: solid grey 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#credit{
+    max-width: 700px;
+    margin: auto;
+}
+#nav{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ gap: 1rem;
+
+}
+
+
+
+
 
 @media only screen and (max-width: 1200px)  {
 .hidden{
